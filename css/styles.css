@@ -5,7 +5,10 @@
   --color-white: #fff;
   --color-background: #2e2f42; /* NAVY BLUE */
   --color-background-light: #f4f4fd; /* CLOUD */
-  --primary-brand-color: #4d5ae5;
+  --primary-brand-color: #4d5ae5; /* IRIS */
+  --primary-brand-color-accent:#404BBF;/* OCEAN */
+  --footer-social-link:#31D0AA; /* GREEN */
+  --hero-gradient:rgba(46, 47, 66, 0.7);/* GREY */
   --primary-font: "Roboto", sans-serif;
 }
 
@@ -57,7 +60,8 @@ img {
 }
 
 .header-border {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--color-text-footer);
+
 }
 .logo-line {
   display: flex;
@@ -115,8 +119,8 @@ img {
 .hero-section {
   background-image: linear-gradient(
       to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+      var(--hero-gradient),
+      var(--hero-gradient)
     ),
     url(../images/peopleoffice.jpg);
   background-repeat: no-repeat;
@@ -335,7 +339,7 @@ img {
 }
 .social-list-link-footer:focus,
 .social-list-link-footer:hover {
-  background-color: #31d0aa;
+  background-color: var(--footer-social-link);
 }
 .footer-content {
   display: flex;
@@ -351,7 +355,7 @@ img {
   letter-spacing: 0.04em;
   font-weight: 500;
   color: var(--primary-brand-color);
-  background-color: var(--color-text-footer);
+  background-color: var(--color-background-light);
   cursor: pointer;
   font-family: var(--primary-font);
   padding: 12px 24px;
