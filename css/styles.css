@@ -6,9 +6,9 @@
   --color-background: #2e2f42; /* NAVY BLUE */
   --color-background-light: #f4f4fd; /* CLOUD */
   --primary-brand-color: #4d5ae5; /* IRIS */
-  --primary-brand-color-accent:#404BBF;/* OCEAN */
-  --footer-social-link:#31D0AA; /* GREEN */
-  --hero-gradient:rgba(46, 47, 66, 0.7);/* GREY */
+  --primary-brand-color-accent: #404bbf; /* OCEAN */
+  --footer-social-link: #31d0aa; /* GREEN */
+  --hero-gradient: rgba(46, 47, 66, 0.7); /* GREY */
   --primary-font: "Roboto", sans-serif;
 }
 
@@ -61,7 +61,6 @@ img {
 
 .header-border {
   border-bottom: 1px solid var(--color-text-footer);
-
 }
 .logo-line {
   display: flex;
@@ -240,6 +239,9 @@ img {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
+.team-position {
+  margin-bottom: 8px;
+}
 .social-list-icon {
   display: block;
   width: 16px;
@@ -254,7 +256,6 @@ img {
   height: 40px;
   background-color: var(--primary-brand-color);
   border-radius: 50%;
-  margin-top: 8px;
 }
 
 .social-list-link:focus,
@@ -314,7 +315,8 @@ img {
   color: var(--color-text-footer);
 }
 .social-text-footer {
-  color: var(--color-text-footer);
+  color: var(--color-white);
+  font-weight: 500;
 }
 
 .footer-item {
